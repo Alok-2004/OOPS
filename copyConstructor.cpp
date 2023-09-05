@@ -25,6 +25,7 @@ int main()
     example obj1(2,5);
     obj1.display();
     example obj2(obj1);//Copy Constructor is called
+    // Other way of calling  example obj2 = obj1 or obj1 = obj2
     obj2.display();
     example obj3=obj1;//Second way of calling copy constructor
     obj3.display();
